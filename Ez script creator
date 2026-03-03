@@ -1,0 +1,337 @@
+From: <Saved by Blink>
+Snapshot-Content-Location: https://lambloxfruitscript.vercel.app/
+Subject: Ez script creator
+Date: Tue, 3 Mar 2026 11:41:50 +0700
+MIME-Version: 1.0
+Content-Type: multipart/related;
+	type="text/html";
+	boundary="----MultipartBoundary--JguPAHKnedxxAR2X5RGsEbae5B9UfoNpLxcY9LW1jY----"
+
+
+------MultipartBoundary--JguPAHKnedxxAR2X5RGsEbae5B9UfoNpLxcY9LW1jY----
+Content-Type: text/html
+Content-ID: <frame-7BA9E9A8BF8BA286249BD791E98418CA@mhtml.blink>
+Content-Transfer-Encoding: binary
+Content-Location: https://lambloxfruitscript.vercel.app/
+
+<!DOCTYPE html><html lang="vi"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><link rel="stylesheet" type="text/css" href="cid:css-e7402949-0357-4205-8007-be4b760d7fa6@mhtml.blink" />
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ez script creator</title>
+  
+</head>
+<body>
+
+<div class="header">
+  <h1>Tạo BloxFruit của riêng bạn một cách dễ dàng và nhanh chóng</h1>
+  <p>Tạo web script miễn phí không cần phải vượt qua link nhanh hơn</p>
+</div>
+
+<div class="card">
+  <div class="section-label">Cài Đặt</div>
+  <div class="field">
+    <label>Khóa API ImgBB (Khóa API ImgBB)</label>
+    <input type="text" id="apiKey" placeholder="Để trống để sử dụng API có sẵn...">
+    <div class="note">
+      Dán API Key vào đây hoặc bỏ qua nếu muốn sử dụng API có sẵn.<br>
+      Nếu muốn sử dụng khóa riêng: <a href="https://api.imgbb.com/" target="_blank">Lấy tại đây</a>
+    </div>
+  </div>
+  <div class="field">
+    <label>Tiêu đề Script (Tiêu đề tập lệnh)</label>
+    <input type="text" id="scriptTitle" placeholder="Ví dụ: Blox Fruits Hub">
+  </div>
+  <div class="field">
+    <label>Phụ đề Script (Tiêu đề phụ của script)</label>
+    <input type="text" id="scriptSub" placeholder="Ví dụ: V1.0.0 - Khóa bản quyền miễn phí">
+  </div>
+  <div class="field">
+    <label>Hình Ảnh Script (Upload lên ImgBB)</label>
+    <div class="upload-row">
+      <div class="img-preview" id="imgPreviewBox">
+        <img id="imgPreviewEl" src="https://lambloxfruitscript.vercel.app/" alt="">
+        <span id="imgPreviewText">Chưa có ảnh</span>
+        <div class="spinner-wrap" id="spinnerWrap"><div class="spinner"></div></div>
+      </div>
+      <div class="upload-right">
+        <button class="btn-upload">Chọn tệp</button>
+        <input type="file" id="fileInput" accept="image/png,image/jpeg,image/gif,image/webp" style="display:none">
+        <div class="upload-status">
+          <div id="uploadFname" style="color:var(--text)">Không có tệp nào được chọn</div>
+          <div class="hint">Hỗ trợ PNG, JPG. Tự động tải lên và tạo URL trực tiếp.</div>
+        </div>
+        <div class="upload-progress" id="uploadProgress">
+          <div class="upload-progress-bar" id="uploadProgressBar"></div>
+        </div>
+        <div class="upload-url" id="uploadUrl"></div>
+      </div>
+    </div>
+  </div>
+  <div class="row2">
+    <div class="field">
+      <label>Tên Tác Giả (Author Name)</label>
+      <input type="text" id="authorName" placeholder="Ví dụ: Scripter123">
+    </div>
+    <div class="field">
+      <label>Phụ Đề Tác Giả (Tiêu đề phụ của tác giả)</label>
+      <input type="text" id="authorSub" placeholder="Ví dụ: Discord: @xyz">
+    </div>
+  </div>
+</div>
+
+<div class="card">
+  <div class="preview-label">Xem Trước Giao Diện (Fluent UI)</div>
+  <div class="fluent-win">
+    <div class="f-titlebar">
+      <div class="f-titlebar-left">
+        <div class="f-avatar" id="fAvatar">AC</div>
+        <div>
+          <div class="f-wintitle" id="fWinTitle">Tên của bạn</div>
+          <div class="f-winsub" id="fWinSub">Đăng ký và thích</div>
+        </div>
+      </div>
+      <div class="f-winbtns">
+        <button class="f-winbtn min"></button>
+        <button class="f-winbtn max"></button>
+        <button class="f-winbtn cls"></button>
+      </div>
+    </div>
+    <div class="f-body">
+      <div class="f-sidebar">
+        <div class="f-search">Tìm một cái gì đó</div>
+        <div class="f-nav-item"><span class="f-dot" style="background:var(--red)"></span>Tab Cửa hàng</div>
+        <div class="f-nav-item active"><span class="f-dot" style="background:var(--teal)"></span>Tab Cấu hình Trang trại</div>
+        <div class="f-nav-item"><span class="f-dot" style="background:var(--green)"></span>Tab Nông nghiệp</div>
+        <div class="f-nav-item"><span class="f-dot" style="background:var(--yellow)"></span>Tab mục</div>
+      </div>
+      <div class="f-content">
+        <div class="f-tab-title">Tab Cấu hình Trang trại</div>
+        <div class="f-row">
+          <div>
+            <div class="f-row-label">Xe buýt tự động</div>
+            <div class="f-row-sub">Tự động thám hiểm trang thái</div>
+          </div>
+          <div class="f-toggle"></div>
+        </div>
+        <div class="f-row">
+          <div>
+            <div class="f-row-label">Chọn công cụ</div>
+            <div class="f-row-sub">Chọn công cụ yêu thích</div>
+          </div>
+          <select class="f-select">
+            <option>Cân chiến</option>
+            <option>Kiếm</option>
+            <option>Súng</option>
+          </select>
+        </div>
+        <div class="f-row">
+          <div>
+            <div class="f-row-label">Tự động cấp độ trang trại</div>
+            <div class="f-row-sub">Bắt đầu tiêu diệt quái vật</div>
+          </div>
+          <div class="f-toggle off"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="fluent-caption">* Phong cách mô phỏng giao diện Fluent UI</div>
+</div>
+
+<div class="script-card">
+  <div class="script-header">
+    <span class="script-filename">script.lua</span>
+    <button class="btn-copy" id="copyBtn">Sao Chép</button>
+  </div>
+  <div class="script-body">
+<span class="c-comment">-- this script created at https://lambloxfruitscript.vercel.app/</span><br>
+<span class="c-func">getgenv</span>().<span class="c-func">ScriptTitle</span> = <span class="c-str" id="o-title">"Script Title"</span><br>
+<span class="c-func">getgenv</span>().<span class="c-func">ScriptSubTitle</span> = <span class="c-str" id="o-sub">"Script Sub Title"</span><br>
+<span class="c-func">getgenv</span>().<span class="c-func">ScriptImage</span> = <span class="c-str" id="o-img">"IMAGE_URL_HERE"</span><br>
+<span class="c-func">getgenv</span>().<span class="c-func">ScriptAuthorName</span> = <span class="c-str" id="o-author">"Author Name"</span><br>
+<span class="c-func">getgenv</span>().<span class="c-func">ScriptAuthorSubTitle</span> = <span class="c-str" id="o-authorsub">"Author Info"</span><br>
+<span class="c-load">loadstring</span>(<span class="c-func">game</span>:<span class="c-func">HttpGet</span>(<span class="c-str">"https://raw.githubusercontent.com/hoannhatz/Script/refs/heads/main/EZScript.lua"</span>))()
+  </div>
+</div>
+
+<div class="toast" id="toast">✓ Đã sao chép vào clipboard!</div>
+<canvas id="lixiCanvas" width="384" height="713"></canvas>
+
+
+
+
+</body></html>
+------MultipartBoundary--JguPAHKnedxxAR2X5RGsEbae5B9UfoNpLxcY9LW1jY----
+Content-Type: text/css
+Content-Transfer-Encoding: binary
+Content-Location: cid:css-e7402949-0357-4205-8007-be4b760d7fa6@mhtml.blink
+
+@charset "utf-8";
+
+*, ::before, ::after { box-sizing: border-box; margin: 0px; padding: 0px; }
+
+:root { --bg: #1a1b2e; --card: #16213e; --border: #252545; --accent: #00bfff; --text: #cdd6f4; --muted: #7788aa; --dimmed: #445566; --input-bg: #0d0d1a; --blue: #0078d4; --red: #f28b82; --green: #a6e3a1; --yellow: #f9e2af; --teal: #89dceb; }
+
+body { background: var(--bg); color: var(--text); font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif; min-height: 100vh; padding: 24px 16px 60px; max-width: 700px; margin: 0px auto; }
+
+.header { margin-bottom: 20px; }
+
+.header h1 { color: var(--accent); font-size: 1.25rem; font-weight: 700; line-height: 1.4; margin-bottom: 6px; }
+
+.header p { color: var(--muted); font-size: 0.82rem; }
+
+.card { background: var(--card); border: 1px solid var(--border); border-radius: 10px; padding: 20px; margin-bottom: 18px; }
+
+.section-label { font-size: 0.68rem; font-weight: 700; text-transform: uppercase; letter-spacing: 1.2px; color: var(--dimmed); margin-bottom: 16px; }
+
+.field { margin-bottom: 16px; }
+
+.field:last-child { margin-bottom: 0px; }
+
+label { display: block; font-size: 0.8rem; color: var(--muted); margin-bottom: 6px; }
+
+input[type="text"] { width: 100%; background: var(--input-bg); border: 1px solid var(--border); border-radius: 6px; padding: 10px 12px; color: var(--text); font-size: 0.88rem; outline: none; transition: border-color 0.2s; }
+
+input[type="text"]:focus { border-color: var(--accent); }
+
+input[type="text"]::placeholder { color: var(--dimmed); }
+
+.note { font-size: 0.73rem; color: var(--dimmed); margin-top: 6px; line-height: 1.5; }
+
+.note a { color: var(--accent); text-decoration: none; }
+
+.note a:hover { text-decoration: underline; }
+
+.upload-row { display: flex; align-items: flex-start; gap: 12px; margin-top: 4px; }
+
+.img-preview { width: 72px; height: 72px; background: var(--input-bg); border: 1px solid var(--border); border-radius: 8px; flex-shrink: 0; overflow: hidden; display: flex; align-items: center; justify-content: center; color: var(--dimmed); font-size: 0.65rem; text-align: center; }
+
+.img-preview img { width: 100%; height: 100%; object-fit: cover; display: none; }
+
+.upload-right { flex: 1 1 0%; }
+
+.btn-upload { background: var(--blue); color: rgb(255, 255, 255); border: none; border-radius: 6px; padding: 8px 16px; font-size: 0.83rem; cursor: pointer; transition: background 0.2s; }
+
+.btn-upload:hover { background: rgb(0, 101, 179); }
+
+.upload-status { font-size: 0.75rem; color: var(--muted); margin-top: 6px; }
+
+.upload-status .hint { color: var(--dimmed); }
+
+.upload-progress { height: 4px; background: var(--border); border-radius: 2px; margin-top: 8px; display: none; overflow: hidden; }
+
+.upload-progress-bar { height: 100%; background: var(--accent); width: 0%; border-radius: 2px; transition: width 0.4s; }
+
+.upload-url { font-size: 0.72rem; margin-top: 6px; word-break: break-all; display: none; }
+
+.row2 { display: grid; grid-template-columns: 1fr 1fr; gap: 14px; }
+
+@media (max-width: 480px) {
+  .row2 { grid-template-columns: 1fr; }
+}
+
+.preview-label { font-size: 0.92rem; font-weight: 600; color: var(--text); margin-bottom: 14px; }
+
+.fluent-win { background: rgb(30, 30, 50); border-radius: 10px; overflow: hidden; border: 1px solid var(--border); box-shadow: rgba(0, 0, 0, 0.5) 0px 8px 32px; max-width: 420px; margin: 0px auto; }
+
+.f-titlebar { background: rgb(38, 38, 58); display: flex; align-items: center; justify-content: space-between; padding: 8px 12px; border-bottom: 1px solid var(--border); }
+
+.f-titlebar-left { display: flex; align-items: center; gap: 8px; }
+
+.f-avatar { width: 26px; height: 26px; border-radius: 50%; background: var(--blue); display: flex; align-items: center; justify-content: center; font-size: 0.6rem; font-weight: 700; color: rgb(255, 255, 255); overflow: hidden; flex-shrink: 0; }
+
+.f-avatar img { width: 100%; height: 100%; object-fit: cover; border-radius: 50%; }
+
+.f-wintitle { font-size: 0.82rem; color: var(--text); max-width: 160px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+
+.f-winsub { font-size: 0.62rem; color: var(--muted); }
+
+.f-winbtns { display: flex; gap: 5px; }
+
+.f-winbtn { width: 13px; height: 13px; border-radius: 50%; border: none; cursor: pointer; }
+
+.f-winbtn.min { background: rgb(254, 188, 46); }
+
+.f-winbtn.max { background: rgb(40, 200, 64); }
+
+.f-winbtn.cls { background: rgb(255, 95, 86); }
+
+.f-body { display: flex; min-height: 220px; }
+
+.f-sidebar { width: 140px; background: rgb(22, 22, 42); border-right: 1px solid var(--border); padding: 8px 0px; flex-shrink: 0; }
+
+.f-search { margin: 0px 8px 8px; background: var(--input-bg); border: 1px solid var(--border); border-radius: 5px; padding: 5px 8px; font-size: 0.7rem; color: var(--dimmed); }
+
+.f-nav-item { display: flex; align-items: center; gap: 8px; padding: 8px 12px; font-size: 0.74rem; color: var(--muted); cursor: pointer; transition: background 0.15s, color 0.15s; border-radius: 0px 6px 6px 0px; margin-right: 6px; }
+
+.f-nav-item:hover { background: rgb(37, 37, 64); color: var(--text); }
+
+.f-nav-item.active { background: rgb(42, 42, 80); color: var(--text); }
+
+.f-dot { width: 8px; height: 8px; border-radius: 50%; flex-shrink: 0; }
+
+.f-content { flex: 1 1 0%; padding: 14px; overflow: hidden; }
+
+.f-tab-title { font-size: 0.82rem; font-weight: 700; color: var(--text); margin-bottom: 12px; }
+
+.f-row { display: flex; align-items: center; justify-content: space-between; padding-bottom: 10px; margin-bottom: 10px; border-bottom: 1px solid rgb(37, 37, 64); }
+
+.f-row:last-child { border-bottom: none; margin-bottom: 0px; padding-bottom: 0px; }
+
+.f-row-label { font-size: 0.73rem; color: var(--text); }
+
+.f-row-sub { font-size: 0.62rem; color: var(--dimmed); margin-top: 2px; }
+
+.f-toggle { width: 34px; height: 18px; border-radius: 9px; background: var(--blue); position: relative; cursor: pointer; flex-shrink: 0; transition: background 0.2s; }
+
+.f-toggle::after { content: ""; position: absolute; width: 14px; height: 14px; background: rgb(255, 255, 255); border-radius: 50%; top: 2px; right: 2px; transition: right 0.2s; }
+
+.f-toggle.off { background: rgb(51, 68, 85); }
+
+.f-toggle.off::after { right: 18px; }
+
+.f-select { background: var(--input-bg); border: 1px solid var(--border); border-radius: 4px; color: var(--text); font-size: 0.7rem; padding: 3px 6px; }
+
+.fluent-caption { text-align: center; font-size: 0.7rem; color: var(--dimmed); margin-top: 10px; font-style: italic; }
+
+.script-card { background: rgb(10, 10, 21); border: 1px solid var(--border); border-radius: 10px; overflow: hidden; margin-bottom: 18px; }
+
+.script-header { background: rgb(20, 20, 42); padding: 8px 14px; display: flex; align-items: center; justify-content: space-between; border-bottom: 1px solid var(--border); }
+
+.script-filename { color: var(--accent); font-size: 0.84rem; font-family: "Courier New", monospace; }
+
+.btn-copy { background: rgb(37, 37, 69); color: var(--text); border: none; border-radius: 5px; padding: 5px 14px; font-size: 0.8rem; cursor: pointer; transition: background 0.2s; }
+
+.btn-copy:hover { background: var(--blue); }
+
+.btn-copy.copied { background: rgb(30, 124, 68); }
+
+.script-body { padding: 16px 18px; font-family: "Courier New", Courier, monospace; font-size: 0.8rem; line-height: 1.8; }
+
+.c-comment { color: rgb(106, 124, 138); }
+
+.c-func { color: rgb(205, 214, 244); }
+
+.c-key { color: rgb(205, 214, 244); }
+
+.c-str { color: rgb(224, 108, 117); }
+
+.c-load { color: rgb(229, 192, 123); }
+
+.toast { position: fixed; bottom: 24px; right: 24px; background: rgb(30, 124, 68); color: rgb(255, 255, 255); padding: 10px 18px; border-radius: 8px; font-size: 0.85rem; opacity: 0; pointer-events: none; transition: opacity 0.3s; z-index: 9999; }
+
+.toast.show { opacity: 1; }
+
+.spinner-wrap { position: absolute; top: 0px; left: 0px; width: 100%; height: 100%; background: rgba(13, 13, 26, 0.75); display: none; align-items: center; justify-content: center; border-radius: 8px; z-index: 10; }
+
+.spinner-wrap.show { display: flex; }
+
+.spinner { width: 36px; height: 36px; border-right: 4px solid rgb(37, 37, 69); border-bottom: 4px solid rgb(37, 37, 69); border-left: 4px solid rgb(37, 37, 69); border-image: initial; border-top: 4px solid var(--accent); border-radius: 50%; animation: 0.8s linear 0s infinite normal none running spin; }
+
+@keyframes spin { 
+  100% { transform: rotate(360deg); }
+}
+
+.img-preview { position: relative; }
+
+#lixiCanvas { position: fixed; top: 0px; left: 0px; width: 100%; height: 100%; pointer-events: none; z-index: 99999; }
+------MultipartBoundary--JguPAHKnedxxAR2X5RGsEbae5B9UfoNpLxcY9LW1jY------
